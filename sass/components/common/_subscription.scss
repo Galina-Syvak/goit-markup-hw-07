@@ -1,0 +1,47 @@
+/* Подпишитесь */
+
+.subscription {
+  display: flex;
+}
+
+.subscription__input {
+  min-width: 358px;
+  padding-left: 16px;
+
+  background-color: var(--background);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  &:focus {
+    color: var(--primery-text-color);
+    outline: none;
+  }
+}
+
+.subscription__button {
+  @include centeredFlex;
+
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 12px;
+
+  background-color: var(--accent-color);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.subscription__text-button {
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.subscription__logo {
+  margin-left: 10px;
+}

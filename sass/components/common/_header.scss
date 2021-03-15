@@ -1,0 +1,13 @@
+/* ШАПКА страницы */
+.header {
+  border-bottom: 1px solid var(--border-project);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.header__main {
+  display: flex;
+}

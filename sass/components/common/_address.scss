@@ -1,0 +1,14 @@
+.address {
+  padding-top: 20px;
+  min-width: 231px;
+
+  color: var(--white-text-color);
+}
+
+.address__link {
+  display: block;
+  padding-top: 9px;
+  color: var(--address-text-op60);
+
+  text-decoration: none;
+}
